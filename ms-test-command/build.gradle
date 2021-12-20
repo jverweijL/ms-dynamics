@@ -1,0 +1,6 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+
+	compile project(":modules:ms-dynamics:ms-dynamics-config")
+	compile project(":modules:ms-dynamics:ms-dynamics-integration-rest-client")
+}

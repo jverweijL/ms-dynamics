@@ -1,0 +1,4 @@
+Bundle-Name: ms-dynamics-accounts-portlet
+Bundle-SymbolicName: ms.dynamics.accounts.portlet
+Bundle-Version: 1.0.0
+Export-Package: ms.dynamics.accounts.portlet.constants

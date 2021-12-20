@@ -1,0 +1,3 @@
+Bundle-Name: ms-test-command
+Bundle-SymbolicName: com.liferay.msdynamics.command
+Bundle-Version: 1.0.0

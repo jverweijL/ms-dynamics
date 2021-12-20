@@ -1,0 +1,5 @@
+Bundle-Name: ms-dynamics-config
+Bundle-SymbolicName: com.liferay.msdynamics.integration.config
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.msdynamics.integration.config
+-metatype: *
