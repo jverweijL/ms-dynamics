@@ -3,7 +3,7 @@ Based upon https://github.com/fafonso/liferay-ms-dynamics-poc
 ## Steps
 1. Deploy the jar files in Liferay DXP
 2. Create MS Dynamics (test) account [here](https://dynamics.microsoft.com/en-us/)
-3. Import [MS Dynamics.postman_collection.json](MS Dynamics.postman_collection.json) in Postman (Pro TIP: use the raw import)
+3. Import [MS Dynamics.postman_collection.json](./MS Dynamics.postman_collection.json) in Postman (Pro TIP: use the raw import)
 4. Modify the variables to your needs/setup
    ![set variables](postman02.png)
 5. Retrieve the access token
