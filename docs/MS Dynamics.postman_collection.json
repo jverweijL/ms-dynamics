@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "4b58ee4e-b070-449d-bba7-ae6069ad8e13",
+		"name": "MS Dynamics",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "whoami",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "accounts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "oauth2",
+		"oauth2": [
+			{
+				"key": "useBrowser",
+				"value": false,
+				"type": "boolean"
+			},
+			{
+				"key": "clientId",
+				"value": "{{clientid}}",
+				"type": "string"
+			},
+			{
+				"key": "authUrl",
+				"value": "{{authurl}}",
+				"type": "string"
+			},
+			{
+				"key": "redirect_uri",
+				"value": "{{callback}}",
+				"type": "string"
+			},
+			{
+				"key": "grant_type",
+				"value": "implicit",
+				"type": "string"
+			},
+			{
+				"key": "tokenName",
+				"value": "postmantest",
+				"type": "string"
+			},
+			{
+				"key": "clientSecret",
+				"value": "CJBGYzyzbCadb3ARTu141f0hcfcL0IC5jqzYqCr5fLU=",
+				"type": "string"
+			},
+			{
+				"key": "client_authentication",
+				"value": "header",
+				"type": "string"
+			},
+			{
+				"key": "accessTokenUrl",
+				"value": "",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "https://orgb58ffeac.crm4.dynamics.com/"
+		},
+		{
+			"key": "clientid",
+			"value": "51f81489-12ee-4a9e-aaae-a2591f45987d"
+		},
+		{
+			"key": "version",
+			"value": "9.0"
+		},
+		{
+			"key": "webapiurl",
+			"value": "{{url}}/api/data/v{{version}}/"
+		},
+		{
+			"key": "callback",
+			"value": "http://localhost:8080"
+		},
+		{
+			"key": "authurl",
+			"value": "https://login.microsoftonline.com/common/oauth2/authorize?resource={{url}}\n"
+		}
+	]
+}
